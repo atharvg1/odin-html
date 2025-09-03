@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+/* Sidebar with leaf background */
+.sidebar {
+  width:40%;
+  background: url("leaf.jpg.avif") no-repeat center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.form-section{
+ width:60%;
+ background:#f9f9f9;
+ padding:40px;
+}
+
+.form-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:20px 40px;
+    margin-bottom:20px;
+}
+
+.form-row{
+    display:flex;
+    flex-direction:column;
+}
+
+label{
+ font-size:14px;
+ margin-bottom:5px;
+ font-weight:bold;
+}
+
+input{
+    width:100%;
+    padding:10px;
+    border:1px solid #E5E7EB;
+    border-radius:4px;
+    font-size:14px;
+    box-sizing:border-box;
+}
+
+input:focus{
+    border-color:blue;
+    box-shadow:0 0 3px rgba(0,0,255,0,3);
+}
+
+input:invalid{
+    border-color:red;
+}
+
+button{
+   background-color:#596D48;
+   color:white;
+   padding:12px; 
+   font-size:16px;
+   border: none;
+   border-radius:6px;
+   cursor:pointer;
+   width:auto;
+}
+
+button:hover{
+    background-color:#4a5c3a;
+}
+
+.login{
+    margin-top:10px;
+    font-size:14px;
+}
+
+.logo-box h1{
+    color:white;
+    margin-top:10px;
+    text-align:center;
+    font-size:40px;
+}
+
+.logo-box{
+ background-color: rgba(0,0,0,0.5);
+ padding:20px 30px;
+ border-radius: 8px;
+ text-align: center;
+ color: white;
+}
+
+.logo-box img {
+  width: 120px;   
+}
+
+.intro{
+    color:green;
+}

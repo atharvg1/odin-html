@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8"> <!-- character encoding -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Odin Project Sign Up</title>        
+        </head>
+        <body>
+            <div class="container">
+            <aside class="sidebar">
+                <div class="logo-box">
+                    <img src="odin-logo.jpg.png" alt="odin-logo">
+                    <h1>Odin</h1>
+                </div>
+            </aside>
+
+            <main class="form-section">
+                <div class="intro">
+                    <p>this is not real online service! Thanks for visit!!.. </p>
+                </div>
+                <form action="#" method="post">
+                    <h2>Let's do this!</h2>
+                  <div class="form-grid">
+                    <div class="form-row">
+                        <label for="first"> First Name</label>
+                        <input type="text" id="first" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="last"> Last Name</label>
+                        <input type="text" id="last" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="email"> Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="phone"> Phone Number</label>
+                        <input type="number" id="phone" pattern="[0-9]10" palceholder="1234567809" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="password"> Password</label>
+                        <input type="password" id="password" minlength="8" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="confirm"> Confirm Password</label>
+                        <input type="password" id="confirm" minlength="8" required>
+                    </div>
+
+                    <button type="submit">Create Accout</button>
+                    <p class="login">Already have an account?<a href="#">Log in</a></p>
+                  </div>
+                </form>
+            </main>
+            </div>
+        </body>
+    
+</html>
